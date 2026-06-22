@@ -68,7 +68,7 @@ if role == "🧑‍💻 Functional Consultant":
                     
                     # Call Gemini
                     response = client.models.generate_content(
-                        model='gemini-1.5-flash',
+                        model='gemini-2.5-flash',
                         contents=user_notes,
                         config=types.GenerateContentConfig(system_instruction=sys_instruction)
                     )
